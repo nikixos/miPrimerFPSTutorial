@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Pickups/Pickup.tscn" type="PackedScene" id=1]
+[ext_resource path="res://GodotFPS-Assets/Models/Pickups/AmmoBoxModel.dae" type="PackedScene" id=2]
+
+[node name="Pickup_ammo" instance=ExtResource( 1 )]
+objeto = 0
+
+[node name="AmmoBoxModel" parent="Mesh" index="0" instance=ExtResource( 2 )]
